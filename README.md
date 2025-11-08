@@ -57,7 +57,7 @@ Local tool server powering Webflow CMS manipulation, collection updates, structu
 ## 📫 Connect with me
 
 - GitHub: **github.com/BaalamZen**  
-- LinkedIn: *(add link here)*  
+- LinkedIn: https://www.linkedin.com/in/bigfish/
 - YouTube (Baalam Studio): https://www.youtube.com/@BaalamStudioDesigns  
 - Website: https://yocoya.ai/
 
