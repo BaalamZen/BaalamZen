@@ -119,5 +119,5 @@ Core stack powering the system:
 ## 👋 Connect
 
 - **LinkedIn:** [linkedin.com/in/bigfish](https://www.linkedin.com/in/bigfish/)
-- **Email:** ianjerde@gmail.com
+- **Email:** dev@yocoya.ai
 - **Website:** [yocoya.ai](https://yocoya.ai)
