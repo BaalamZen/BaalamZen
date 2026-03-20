@@ -1,6 +1,6 @@
 # Hi, I'm Ian Jerde
 
-**AI Systems Builder & Revenue Leader** — 25+ years driving SMB, Mid-Market, Channel, and Retail technology sales, now designing and operating production-grade AI automation systems.
+**AI Systems Builder & Revenue Leader** — 25+ years in technology sales, now designing production-grade AI automation systems. Building Yocoya.ai for LATAM.
 
 I lead a $480M+ ARR business across SMB, system integrators, and retail partners while building end-to-end AI infrastructure through [Yocoya.ai](https://yocoya.ai), a bilingual (ES-MX / EN-US) AI content and tools platform for LATAM.
 
