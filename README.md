@@ -1,77 +1,123 @@
-# 👋 Hi, I’m Ian (BaalamZen)
+# Hi, I'm Ian Jerde
 
-Automation builder • Creative technologist • SaaS sales leader  
-Focused on AI workflows, Webflow/MCP integrations, n8n pipelines, and bilingual digital ecosystems for creators across LATAM + US.
+**AI Systems Builder & Revenue Leader** — 25+ years driving SMB, Mid-Market, Channel, and Retail technology sales, now designing and operating production-grade AI automation systems.
 
-I specialize in **practical, real-world automation**—the kind that removes friction, scales content, and connects tools that aren’t designed to talk to each other. My work lives at the intersection of:
+I lead a $480M+ ARR business across SMB, system integrators, and retail partners while building end-to-end AI infrastructure through [Yocoya.ai](https://yocoya.ai), a bilingual (ES-MX / EN-US) AI content and tools platform for LATAM.
 
-- AI + content automation  
-- Workflow engines (n8n, Claude MCP, custom scripts)  
-- Webflow CMS + API orchestration  
-- YouTube/TikTok publishing automation  
-- Affiliate intelligence + structured data pipelines  
-- Bilingual (EN/ES-MX) content ecosystems
+I don't just sell technology — I build systems that run it.
 
 ---
 
-## 🚀 Current Projects
+## 🚀 Systems Built
 
-### ✅ **Yocoya.ai — Live**
-**AI tools hub + LATAM-focused AI newsletter**  
-Built on Webflow CMS with custom MCP integrations, Webflow API automation, RSS ingestion, and bilingual content generation.
+Below are real production workflows powering Yocoya.ai.
 
 ---
 
-## 🧪 Projects in Development
+## 🧠 1. AI Content Ingestion & Translation Engine
 
-### 🔧 **KAI – Tech Review AI Avatar**
-Automated news-to-script-to-video pipeline using RSS feeds, Claude, n8n, Midjourney, Shotstack, and automated posting to YouTube Shorts & TikTok.
+![AI Content Ingestion Workflow](./assets/ingestion-workflow.png)
 
-### 🔧 **Baalam Studio – Creative Automation**
-Automated product creation and publishing for an Etsy POD brand (Printful/Printify), including AI image generation, animations, and sacred-frequency content.
+> Multi-stage pipeline that ingests, scores, translates, and prepares content for publishing.
 
-### 🔧 **Project YTS – Sacred Frequency Video Engine**
-89.5-second meditation videos built with:
-- n8n workflow orchestration  
-- Claude prompt engineering  
-- Dynamic MP3 routing  
-- FX selection logic  
-- Shotstack rendering + metadata auditing
+### What It Does
 
-### 🔧 **Claude Webflow MCP Server**
-Local tool server powering Webflow CMS manipulation, collection updates, structured queries, and component-safe actions without timeouts.
+- Aggregates content from 150+ RSS sources
+- Normalizes and structures incoming data
+- Deduplicates content across feeds
+- Applies LLM-based classification and scoring
+- Detects source language dynamically
+- Translates content bidirectionally (ES ↔ EN ↔ ES-MX)
+- Prepares structured output for downstream systems
 
 ---
 
-## 🛠️ Tech I Work With
+## ⚙️ 2. AI Content Publishing Engine
 
-- **AI & Automation:** n8n, Claude, GPT-5, OpenAI Assistants, MCP, Node scripts  
-- **Content Systems:** Shotstack, Midjourney, Veo 2/3, Kaiber, Webflow CMS  
-- **Backend & Data:** REST APIs, Airtable/Google Sheets → CMS pipelines, JSON schemas  
-- **Frontend/No-Code:** Webflow, Canva, Printful/Printify automations  
-- **Languages:** JavaScript/Node, Python (utility), Markdown, JSON  
-- **DevOps:** GitHub, Docker (local workflows)
+![AI Content Publishing Workflow](./assets/publishing-workflow.png)
 
----
+> Automated workflow that validates, routes, and publishes content to CMS.
 
-## 📫 Connect with me
+### What It Does
 
-- GitHub: **github.com/BaalamZen**  
-- LinkedIn: https://www.linkedin.com/in/bigfish/
-- YouTube (Baalam Studio): https://www.youtube.com/@BaalamStudioDesigns  
-- Website: https://yocoya.ai/
+- Receives validated content from ingestion pipeline
+- Applies metadata enrichment and formatting
+- Routes content dynamically by category and type
+- Publishes to Webflow CMS via API
+- Triggers downstream distribution workflows
 
 ---
 
-## 🌱 What I’m Learning
-Expanding deeper into:
-- AI-driven dev environments  
-- Larger automation architectures  
-- MCP server design  
-- High-scale newsletter + CMS automation
+## 🔄 3. AI CMS Sync & Upsert Engine
+
+![AI CMS Sync Workflow](./assets/cms-sync-workflow.png)
+
+> Sync engine that updates or creates CMS entries from structured data.
+
+### What It Does
+
+- Fetches existing CMS entries
+- Matches records against Airtable dataset
+- Determines create vs update logic
+- Updates or creates entries via API
+- Handles multi-language content (EN / ES-MX)
+- Writes back status to Airtable
 
 ---
 
-## ⚡ Fun Fact
-I like solving messy automation problems—especially when the tools weren’t designed to work together. If something feels “impossible,” I’ll usually find a way to make it work.
+## 📣 4. AI Newsletter & Distribution Engine
 
+![AI Newsletter Workflow](./assets/newsletter-workflow.png)
+
+> System that selects, formats, and distributes top content automatically.
+
+### What It Does
+
+- Pulls content from publishing queue
+- Scores and ranks articles dynamically
+- Selects top-performing content
+- Builds newsletter-ready content blocks
+- Sends via email (Brevo) and Telegram
+- Logs results and updates system state
+
+---
+
+## 🧱 Architecture Overview
+
+Core stack powering the system:
+
+- **AI / LLM:** Claude API, prompt pipelines
+- **Automation:** n8n (workflow orchestration)
+- **Data Layer:** Airtable
+- **CMS:** Webflow CMS API
+- **Distribution:** Brevo, Telegram
+- **Infrastructure:** Cloudflare Workers, APIs
+- **Languages:** JavaScript / Node.js, Python, SQL
+
+---
+
+## 📊 System Impact
+
+- Reduced manual content operations by ~80%
+- Processes 150+ sources daily
+- Fully autonomous publishing + distribution pipeline
+- Multi-language content generation at scale
+- Modular, API-first architecture
+
+---
+
+## 🎯 What This Demonstrates
+
+- End-to-end AI system design
+- Real-world LLM pipeline deployment
+- API orchestration across multiple platforms
+- Scalable automation architecture
+- Ability to turn business problems into working systems
+
+---
+
+## 👋 Connect
+
+- **LinkedIn:** [linkedin.com/in/bigfish](https://www.linkedin.com/in/bigfish/)
+- **Email:** ianjerde@gmail.com
+- **Website:** [yocoya.ai](https://yocoya.ai)
